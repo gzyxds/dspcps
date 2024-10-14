@@ -122,7 +122,7 @@ const PriceItem = ({ plan }: Props) => {
       <button
         className={`mt-9 flex w-full justify-center rounded-full  p-3.5 font-satoshi font-medium ${activeStyle}`}
       >
-        Get Started
+       立即申请
       </button>
     </div>
   );

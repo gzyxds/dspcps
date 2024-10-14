@@ -9,17 +9,17 @@ const Counter = () => {
 
 			<div className='mx-auto w-full  px-4 sm:px-8 xl:px-0'>
 				<h2 className='mb-12.5 text-center font-satoshi text-heading-5 font-bold -tracking-[1.2px] text-black dark:text-white'>
-					Numbers speaking for themselves
+					数据说明一切
 				</h2>
 
 				<div className='flex flex-col items-center justify-center gap-7.5 sm:flex-row lg:gap-12.5 xl:gap-17.5'>
 					<div className='w-[250px] text-center '>
 						<h3 className='mb-2.5 font-satoshi text-heading-4 font-bold -tracking-[1.6px] text-primary lg:text-heading-2 xl:text-[55px] xl:leading-[1.05]'>
-							<CountUp targetNumber={20} />
+							<CountUp targetNumber={15600} />
 							<span className='-ml-3'>+</span>
 						</h3>
 						<p className='text-lg font-medium -tracking-[0.2px]'>
-							Integrations
+							下载量
 						</p>
 					</div>
 
@@ -28,11 +28,11 @@ const Counter = () => {
 
 					<div className='w-[250px] text-center'>
 						<h3 className='mb-2.5 font-satoshi text-heading-4 font-bold -tracking-[1.6px] text-primary lg:text-heading-2 xl:text-[55px] xl:leading-[1.05]'>
-							<CountUp targetNumber={100} />
+							<CountUp targetNumber={80500} />
 							<span className='-ml-3'>+</span>
 						</h3>
 						<p className='text-lg font-medium -tracking-[0.2px]'>
-							UI Components and Pages
+							安装量
 						</p>
 					</div>
 
@@ -41,11 +41,10 @@ const Counter = () => {
 
 					<div className='w-[250px] text-center'>
 						<h3 className='mb-2.5 font-satoshi text-heading-4 font-bold -tracking-[1.6px] text-primary lg:text-heading-2 xl:text-[55px] xl:leading-[1.05]'>
-							<CountUp targetNumber={12000} />
-
+							<CountUp targetNumber={50000} />
 							<span className='-ml-3'>+</span>
 						</h3>
-						<p className='text-lg font-medium -tracking-[0.2px]'>USD Saved</p>
+						<p className='text-lg font-medium -tracking-[0.2px]'>活跃用户</p>
 					</div>
 				</div>
 			</div>

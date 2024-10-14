@@ -19,7 +19,7 @@ export default function EntryProcess() {
       <div className="container mx-auto w-full max-w-[1170px]">
         <div className="text-center mb-12">
           <h2 className="mb-4 font-satoshi text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-heading-2">
-            入驻流程
+            剧分钱入驻流程
           </h2>
           <p className="text-xl text-body dark:text-gray-4">
             ENTRY PROCESS

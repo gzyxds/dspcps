@@ -14,8 +14,8 @@ const Pricing = () => {
     >
       {/* <!-- section title --> */}
       <SectionHeader
-        title={"Simple Affordable Pricing"}
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum dictum euismod malesuada lacus, non consequat quam."
+        title={"分销等级体系"}
+        description="我们提供多层次的分销等级体系，满足不同阶段分销商的需求。从创作者到合伙人，每个等级都有独特的佣金结构和升级机会，助您在分销事业中不断成长。"
       />
 
       <div className="mx-auto w-full max-w-[1170px] px-4 sm:px-8 xl:px-0">
