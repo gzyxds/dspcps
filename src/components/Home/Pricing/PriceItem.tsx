@@ -70,13 +70,13 @@ const PriceItem = ({ plan }: Props) => {
           active ? "text-white" : "text-[#170F49] dark:text-white"
         }`}
       >
-        ${plan?.unit_amount / 100}
+        ￥{plan?.unit_amount / 100}
         <span
           className={`ml-1 text-xl font-medium -tracking-[0.3px] ${
             active ? "text-white" : "text-gray-6 dark:text-white"
           }`}
         >
-          /monthly
+          /免费入驻
         </span>
       </h4>
 
@@ -85,7 +85,7 @@ const PriceItem = ({ plan }: Props) => {
           active ? "text-white" : "text-black"
         }`}
       >
-        What&apos;s included
+        全网佣金约80~95%
       </h5>
 
       <ul className="flex flex-col gap-3">
