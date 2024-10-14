@@ -97,7 +97,7 @@ const featuresData: FeatureItem[] = [
 		title: "短剧分发",
 		description:
 			"覆盖多个主流平台的短剧分发渠道，帮助创作者快速扩大作品影响力",
-		icon: "/images/features/features-icon-02.svg",
+		icon: "/images/features/tiktok-icon.svg",
 	},
 	{
 		id: 9,

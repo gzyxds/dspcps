@@ -3,21 +3,45 @@ import { Faq } from "@/types/faq";
 const faqData: Faq[] = [
 	{
 		id: 1,
-		question: "Does this app offer a free trial period?",
+		question: "初映Matrix是什么?",
 		answer:
-			"All individual Framer subscriptions have been grandfathered into a Pro plan at your existing rate. If you were on a Small Team plan, then all 5 seats have been converted over to Pro seats at your existing rate.",
+			"初映Matrix是一个为短视频创作者提供IP授权、短剧分发、游戏分发、短视频CPS、短剧分销平台、短剧分销CPS、短剧推广授权等多渠道多平台的变现项目。它旨在帮助创作者实现内容变现，提高收益。",
 	},
 	{
 		id: 2,
-		question: "How much does the app cost?",
+		question: "初映Matrix有哪些主要功能?",
 		answer:
-			"All individual Framer subscriptions have been grandfathered into a Pro plan at your existing rate. If you were on a Small Team plan, then all 5 seats have been converted over to Pro seats at your existing rate.",
+			"初映Matrix提供多种功能，包括但不限于：IP授权、短剧分发、游戏分发、短视频CPS、短剧分销平台、短剧推广授权等。这些功能覆盖了多个主流平台，如抖音、快手、微信视频号等，帮助创作者扩大影响力并实现多渠道变现。",
 	},
 	{
 		id: 3,
-		question: "What's the refund policy?",
+		question: "如何加入初映Matrix?",
 		answer:
-			"All individual Framer subscriptions have been grandfathered into a Pro plan at your existing rate. If you were on a Small Team plan, then all 5 seats have been converted over to Pro seats at your existing rate.",
+			"加入初映Matrix非常简单。您可以通过我们的官方网站或移动应用进行注册。注册成功后，您将立即成为V1级会员，享受相应的佣金比例和福利。随着您的业绩增长，您可以晋升到更高级别，获得更多收益和权益。",
+	},
+	{
+		id: 4,
+		question: "初映Matrix是什么?",
+		answer:
+			"初映Matrix是上海枭格科技有限公司推出的短剧分销一站式服务平台。它为抖音、快手、视频号等主流短视频平台的内容创作者提供全面的短剧分销解决方案和多元化的商业变现途径。平台旨在通过整合创作者、流量主和剧场方的资源，打造一个互利共赢的短剧内容生态系统。",
+	},
+	{
+		id: 5,
+		question: "初映Matrix平台有哪些主要特色?",
+		answer:
+			"初映Matrix平台的主要特色包括：丰富的内容库，拥有超过8000部授权短剧，覆盖多种流行题材；行业领先的分成机制；先进的技术优势，利用数据分析和推荐算法提供个性化服务；用户友好的界面，支持简单的剪辑和二次创作流程；全方位的服务支持，包括操作指南和技术支持。",
+	},
+	{
+		id: 6,
+		question: "初映Matrix平台如何支持创作者和流量主?",
+		answer:
+			"初映Matrix平台通过多种方式支持创作者和流量主：提供全面的教学资源和技术支持，帮助创作者提升技能；为流量主提供定制化的合作方案，帮助他们扩大影响力和收益；与剧场方建立战略合作关系，提供定制化的推广和分销服务；通过先进的算法，智能匹配内容和分销渠道，最大化内容的可见度和收益潜力。",
+	},
+	{
+		id: 7,
+		question: "初映Matrix平台的未来规划是什么?",
+		answer:
+			"初映Matrix计划通过持续的技术创新和服务优化，成为短剧分销行业的标杆。未来，平台将扩大市场覆盖，增强用户体验，推动短剧内容的多样化发展。同时，还计划引入更多合作伙伴，扩展业务范围，为创作者、流量主和剧场方创造更大的价值。此外，平台致力于推动短视频行业的健康发展，鼓励文化多样性和创新思维。",
 	},
 ];
 

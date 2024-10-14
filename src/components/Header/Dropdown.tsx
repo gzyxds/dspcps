@@ -19,7 +19,7 @@ const Dropdown = ({
 				onClick={() => setDropdown(!dropdown)}
 				className='flex w-full items-center justify-between gap-1.5 rounded-full px-[14px] py-[3px] font-satoshi font-medium text-dark group-hover:bg-primary/5 group-hover:text-primary dark:text-gray-5 dark:group-hover:bg-white/5 dark:group-hover:text-white'
 			>
-				Pages
+				{item.title}
 				<svg
 					className='group-hover:rotate-180'
 					width='19'
