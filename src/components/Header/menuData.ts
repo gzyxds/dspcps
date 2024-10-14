@@ -52,7 +52,7 @@ export const menuData: Menu[] = [
   },
   {
     id: 5,
-    title: "立即购买 ↗",
+    title: "立即申请 ↗",
     newTab: true,
     path: "/tutorials",
   },

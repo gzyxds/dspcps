@@ -6,7 +6,7 @@ export const pricingData: Price[] = [
     unit_amount: 99 * 100,
     nickname: "Basic",
     description:
-      "33333333333.",
+      "Lorem ipsum dolor sit amet dolorol met conse ctetur adipiscing elit.",
     subtitle: "For individuals",
     includes: [
       "All basic features",
