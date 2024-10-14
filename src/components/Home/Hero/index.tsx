@@ -114,7 +114,7 @@ const Hero = () => {
 			{/* <!-- Hero brands --> */}
 			<div className='mx-auto mt-20 w-full max-w-[1170px] px-4 sm:px-8 lg:mt-25 xl:mt-32.5 xl:px-0'>
 				<h2 className='text-center font-satoshi text-lg font-medium text-black dark:text-white'>
-				<strong>初映丨短剧丨抖音丨快手丨视频号丨官方合作渠道平台</strong>
+				<strong>丨抖音丨快手丨视频号丨官方合作渠道平台</strong>
 				</h2>
 
 				<div className='mt-9 flex flex-wrap items-center justify-center gap-7.5 xl:gap-16'>
