@@ -11,8 +11,8 @@ const Features = () => {
 		>
 			{/* <!-- section title --> */}
 			<SectionHeader
-				title={"Launch SaaS Startup in Days"}
-				description='Everything you need to build, launch, and scale your SaaS startup.'
+				title={"初映Matrix 功能介绍"}
+				description='初映Matrix是为短视频创作者提供IP授权、短剧分发、游戏分发、短视频cps、短剧分销平台、短剧分销cps、短剧推广授权等多渠道多平台的变现项目'
 			/>
 
 			<div className='relative z-1 mx-auto w-full max-w-[1170px] px-4 sm:px-8 xl:px-0'>
