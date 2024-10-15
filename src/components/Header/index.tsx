@@ -151,13 +151,13 @@ const Header = () => {
               <ThemeSwitcher />
 
               <Link
-                href="#"
+                href="https://auth.dspcps.com/"
                 className="px-5 py-2 font-satoshi font-medium text-black dark:text-white"
               >
                 立即注册
               </Link>
               <Link
-                href="#"
+                href="https://auth.dspcps.com/"
                 className="rounded-full bg-primary px-5 py-2 font-satoshi font-medium text-white hover:bg-primary-dark"
               >
                 立即登录

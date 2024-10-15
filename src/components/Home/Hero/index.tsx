@@ -38,12 +38,12 @@ const Hero = () => {
 				<div className='flex justify-center gap-8 mb-8'>
 					<div className='text-center'>
 						<Image
-							src='/images/icon/gzh.png'
-							alt='扫码下载'
+							src='/images/icon/qrcode.jpg'
+							alt='扫码关注'
 							width={120}
 							height={120}
 						/>
-						<p className='mt-2 text-sm'>扫码下载</p>
+						<p className='mt-2 text-sm'>扫码关注</p>
 					</div>
 					<div className='text-center'>
 						<Image
@@ -56,17 +56,17 @@ const Hero = () => {
 					</div>
 					<div className='text-center'>
 						<Image
-							src='/images/icon/wx.png'
+							src='/images/icon/q.png'
 							alt='二维码'
 							width={120}
 							height={120}
 						/>
-						<p className='mt-2 text-sm'>二维码</p>
+						<p className='mt-2 text-sm'>加入社群</p>
 					</div>
 				</div>
 
 				<Link
-					href='#'
+					href='https://auth.dspcps.com/'
 					className='inline-flex items-center gap-4 rounded-full bg-black py-2 pl-7.5 pr-2 font-satoshi font-medium text-white hover:bg-opacity-90 dark:bg-primary'
 				>
 					<span> 立即入驻 </span>
@@ -88,7 +88,7 @@ const Hero = () => {
 					</span>
 				</Link>
 				<Link
-					href='#'
+					href='https://auth.dspcps.com/'
 					className='inline-flex items-center gap-4 rounded-full bg-black py-2 pl-7.5 pr-2 font-satoshi font-medium text-white hover:bg-opacity-90 dark:bg-primary ml-4'
 				>
 					<span> 联系我们 </span>

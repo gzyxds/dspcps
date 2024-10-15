@@ -15,7 +15,7 @@ export const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "定价",
+    title: "体系",
     newTab: false,
     path: "#pricing",
   },
@@ -54,6 +54,6 @@ export const menuData: Menu[] = [
     id: 5,
     title: "立即申请 ↗",
     newTab: true,
-    path: "/tutorials",
+    path: "https://auth.dspcps.com/",
   },
 ];

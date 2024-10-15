@@ -52,38 +52,38 @@ const featuresData: FeatureItem[] = [
 	},
 	{
 		id: 2,
-		title: "合作剧场",
+		title: "影票达人",
 		description:
-			"快手：来看剧场、九天剧场等；抖音：指尖小短剧、微剧吧等；微信剧场：指尖剧院、春光小剧场等；更多合作电商、小说挂载、变现挂载，请登录鲤享APP自行探索",
-		icon: "/images/features/features-icon-02.svg",
+			"抖音影票CPS分销推广",
+		icon: "/images/features/features-icon-05.svg",
 	},
 	{
 		id: 3,
-		title: "鲤享佣金与晋级说明 - V1级",
+		title: "带剧达人",
 		description:
-			"自推充值金额的52%+4%补贴，享直接V1级充值金额的2%。晋级条件：注册成功即V1级",
+			"短剧CPS一键推广授权分发",
 		icon: "/images/features/features-icon-03.svg",
 	},
 	{
 		id: 4,
-		title: "鲤享佣金与晋级说明 - V2级",
+		title: "小说推文",
 		description:
-			"自推充值金额的63%+4%补贴，享多级佣金。晋级条件：有效粉丝数≥80人（近30天收入≥10）30天内全部结算佣金500，或30天内个人结算佣金8888",
+			"漫画小说挂载推广",
 		icon: "/images/features/features-icon-04.svg",
 	},
 	{
 		id: 5,
-		title: "鲤享佣金与晋级说明 - V3级（上）",
+		title: "外卖达人",
 		description:
-			"自推充值金额的73%+4%补贴，享多级佣金。优秀V3级享团队提供的五险一金，发展V3级团队数量达标额外享奖金",
+			"短视频挂载外卖CPS",
 		icon: "/images/features/features-icon-05.svg",
 	},
 	{
 		id: 6,
-		title: "鲤享佣金与晋级说明 - V3级（下）",
+		title: "抖音AI",
 		description:
-			"晋级条件：有效粉丝数≥180人（近30天收入≥10）30天内全部结算佣金达标",
-		icon: "/images/features/features-icon-06.svg",
+			"抖音AI挂载推广",
+		icon: "/images/features/features-icon-03.svg",
 	},
 	{
 		id: 7,
@@ -97,7 +97,7 @@ const featuresData: FeatureItem[] = [
 		title: "短剧分发",
 		description:
 			"覆盖多个主流平台的短剧分发渠道，帮助创作者快速扩大作品影响力",
-		icon: "/images/features/tiktok-icon.svg",
+		icon: "/images/features/features-icon-05.svg",
 	},
 	{
 		id: 9,
