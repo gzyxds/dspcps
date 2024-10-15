@@ -1,7 +1,8 @@
 import React from "react";
 import BlogItem from "@/components/Blog/BlogItem";
 import SectionHeader from "@/components/Common/SectionHeader";
-import { Blog } from "@/types/blog";
+//import { Blog } from "@/types/blog";
+import type { Blog } from "@/types/blog";
 
 const posts: Blog[] = [
   {
