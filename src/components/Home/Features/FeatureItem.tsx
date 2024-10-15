@@ -1,4 +1,4 @@
-import { FeatureItem } from "@/types/featureItem";
+import type { FeatureItem } from "@/types/featureItem"; // 修改为类型导入
 import Image from "next/image";
 import React from "react";
 
