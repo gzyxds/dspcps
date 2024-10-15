@@ -34,11 +34,7 @@ const featureItemData: FeatureWithImg[] = [
 			"优秀创作者获得更高收益",
 			"发展团队，收益阶梯式增长",
 		],
-		image: {
-			src: "/images/features/tabs-con2.png",
-			width: "100%",
-			height: "100%"
-		},
+		image: "/images/features/tabs-con2.png",
 		id: 3,
 	},
 ];
