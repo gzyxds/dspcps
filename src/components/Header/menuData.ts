@@ -60,7 +60,7 @@ export const menuData: Menu[] = [
   },
   {
     id: 5,
-    title: "立即申请 ↗",
+    title: "立即申请↗",
     newTab: true,
     path: "https://play.urlnet.cn/",
   },

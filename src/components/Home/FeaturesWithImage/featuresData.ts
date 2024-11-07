@@ -20,7 +20,7 @@ const featureItemData: FeatureWithImg[] = [
 		checklist: [
 			"抖音、快手、视频号多平台支持",
 			"多种挂载方式",
-			"一部任意发，多方收益",
+			"一部任意发,多方收益",
 		],
 		image: "/images/features/tabs-con10.png",
 		id: 2,
@@ -32,7 +32,7 @@ const featureItemData: FeatureWithImg[] = [
 		checklist: [
 			"全行业高比例分成",
 			"优秀创作者获得更高收益",
-			"发展团队，收益阶梯式增长",
+			"团队发展，收益阶梯式增长",
 		],
 		image: "/images/features/tabs-con2.png",
 		id: 3,
