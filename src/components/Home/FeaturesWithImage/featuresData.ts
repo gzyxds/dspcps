@@ -22,7 +22,7 @@ const featureItemData: FeatureWithImg[] = [
 			"多种挂载方式",
 			"一部任意发，多方收益",
 		],
-		image: "/images/features/features-02.png",
+		image: "/images/features/tabs-con10.png",
 		id: 2,
 	},
 	{

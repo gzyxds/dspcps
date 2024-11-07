@@ -1,3 +1,11 @@
+/*
+ * @Author: gzyxds 348310633@qq.com
+ * @Date: 2024-10-15 14:50:41
+ * @LastEditors: gzyxds 348310633@qq.com
+ * @LastEditTime: 2024-11-07 21:30:01
+ * @FilePath: \dspcps\src\components\Header\menuData.ts
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import { Menu } from "@/types/menu";
 
 export const menuData: Menu[] = [
@@ -54,6 +62,6 @@ export const menuData: Menu[] = [
     id: 5,
     title: "立即申请 ↗",
     newTab: true,
-    path: "https://auth.dspcps.com/",
+    path: "https://play.urlnet.cn/",
   },
 ];

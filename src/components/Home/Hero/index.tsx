@@ -8,9 +8,9 @@ const Hero = () => {
 		<section className='relative z-1 overflow-hidden pb-17.5 pt-30 lg:pb-20 lg:pt-30 xl:pb-25 xl:pt-[170px]'>
 			<div className='mx-auto w-full max-w-[740px] px-4 text-center sm:px-8 xl:px-0'>
 				<h1 className='mb-5 font-satoshi text-heading-4 font-bold -tracking-[1.6px] text-black dark:text-white lg:text-heading-2 xl:text-[58px] xl:leading-[1.12]'>
-				初映{" "}
+				短剧{" "}
 					<span className='relative text-primary'>
-						短剧分销CPS
+						分销CPS
 						<span className='absolute bottom-0.5 left-0 h-2 w-full pl-1 pr-2'>
 							<svg
 								className='fill-current'
@@ -66,7 +66,7 @@ const Hero = () => {
 				</div>
 
 				<Link
-					href='https://auth.dspcps.com/'
+					href='https://play.urlnet.cn/'
 					className='inline-flex items-center gap-4 rounded-full bg-black py-2 pl-7.5 pr-2 font-satoshi font-medium text-white hover:bg-opacity-90 dark:bg-primary'
 				>
 					<span> 立即入驻 </span>
@@ -88,7 +88,7 @@ const Hero = () => {
 					</span>
 				</Link>
 				<Link
-					href='https://auth.dspcps.com/'
+					href='https://play.urlnet.cn/'
 					className='inline-flex items-center gap-4 rounded-full bg-black py-2 pl-7.5 pr-2 font-satoshi font-medium text-white hover:bg-opacity-90 dark:bg-primary ml-4'
 				>
 					<span> 联系我们 </span>

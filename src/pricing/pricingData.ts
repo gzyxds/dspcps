@@ -1,3 +1,11 @@
+/*
+ * @Author: gzyxds 348310633@qq.com
+ * @Date: 2024-10-15 14:50:41
+ * @LastEditors: gzyxds 348310633@qq.com
+ * @LastEditTime: 2024-11-07 21:09:07
+ * @FilePath: \dspcps\src\pricing\pricingData.ts
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import { Price } from "@/types/priceItem";
 
 export const pricingData: Price[] = [
@@ -6,13 +14,11 @@ export const pricingData: Price[] = [
     unit_amount: 0,
     nickname: "创作者",
     description:
-      "适合初级分销商的基础等级。",
-    subtitle: "初级分销",
+      "适合新手分销商的基础等级。",
+    subtitle: "基础分销",
     includes: [
-      "直推一级佣金10%",
-      "间推二级佣金5%",
-      "无极差佣金",
-      "无平级佣金",
+     "无级差分成",
+      "无平级分成",
       "基础功能开放",
     ],
     icon: `/images/pricing/pricing-icon-01.svg`,
@@ -22,14 +28,12 @@ export const pricingData: Price[] = [
     unit_amount: 0,
     nickname: "团长",
     description:
-      "为成长中的分销商提供更多佣金和更大的发展空间。",
-    subtitle: "中级分销",
+      "为成长中的分销商提供更多权益和发展机会。",
+    subtitle: "进阶分销",
     includes: [
-      "直推一级佣金15%",
-      "间推二级佣金10%",
-      "邀请5人可升级",
-      "自身收益达到50元可升级",
-      "下级团队收益达到100元可升级",
+      "邀请5人可晋升",
+      "自身收益达到50元可晋升",
+      "下级团队收益达到100元可晋升",
     ],
     icon: `/images/pricing/pricing-icon-02.svg`,
     icon2: `/images/pricing/pricing-icon-02-2.svg`,
@@ -40,16 +44,12 @@ export const pricingData: Price[] = [
     unit_amount: 0,
     nickname: "合伙人",
     description:
-      "为高级分销商提供最高级别的佣金和全面的功能。",
-    subtitle: "高级分销",
+      "为资深分销商提供更多权益和功能。",
+    subtitle: "资深分销",
     includes: [
-      "直推一级佣金30%",
-      "间推二级佣金15%",
-      "平级一级佣金5%",
-      "平级二级佣金3%",
-      "邀请20人可升级",
-      "自身收益达到200元可升级",
-      "下级团队收益达到500元可升级",
+      "邀请20人可晋升",
+      "自身收益达到200元可晋升",
+      "下级团队收益达到500元可晋升",
     ],
     icon: `/images/pricing/pricing-icon-03.svg`,
   },

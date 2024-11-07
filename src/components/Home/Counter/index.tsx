@@ -1,3 +1,11 @@
+/*
+ * @Author: gzyxds 348310633@qq.com
+ * @Date: 2024-10-15 14:50:41
+ * @LastEditors: gzyxds 348310633@qq.com
+ * @LastEditTime: 2024-11-07 21:10:45
+ * @FilePath: \dspcps\src\components\Home\Counter\index.tsx
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 "use client";
 import React from "react";
 import CountUp from "./CountUp";
@@ -19,7 +27,7 @@ const Counter = () => {
 							<span className='-ml-3'>+</span>
 						</h3>
 						<p className='text-lg font-medium -tracking-[0.2px]'>
-							下载量
+							{/* 下载量 */}
 						</p>
 					</div>
 
@@ -32,7 +40,7 @@ const Counter = () => {
 							<span className='-ml-3'>+</span>
 						</h3>
 						<p className='text-lg font-medium -tracking-[0.2px]'>
-							安装量
+							{/* 安装量 */}
 						</p>
 					</div>
 
@@ -44,7 +52,9 @@ const Counter = () => {
 							<CountUp targetNumber={50000} />
 							<span className='-ml-3'>+</span>
 						</h3>
-						<p className='text-lg font-medium -tracking-[0.2px]'>活跃用户</p>
+						<p className='text-lg font-medium -tracking-[0.2px]'>
+							{/* 活跃用户 */}
+						</p>
 					</div>
 				</div>
 			</div>
