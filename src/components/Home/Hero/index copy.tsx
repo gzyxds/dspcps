@@ -6,18 +6,6 @@ import Link from "next/link";
 const Hero = () => {
 	return (
 		<section className='relative z-1 overflow-hidden pb-17.5 pt-30 lg:pb-20 lg:pt-30 xl:pb-25 xl:pt-[170px]'>
-			{/* 装饰性背景元素 */}
-			<div className="absolute inset-0 -z-10">
-				<div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl"></div>
-				<div className="absolute top-40 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
-				<div className="absolute bottom-20 left-1/2 w-80 h-80 bg-green-500/10 rounded-full blur-3xl"></div>
-				
-				{/* 装饰性小圆点 */}
-				<div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary rounded-full"></div>
-				<div className="absolute top-1/3 right-1/3 w-3 h-3 bg-blue-500 rounded-full"></div>
-				<div className="absolute bottom-1/4 right-1/4 w-2 h-2 bg-green-500 rounded-full"></div>
-			</div>
-
 			<div className='mx-auto w-full max-w-[740px] px-4 text-center sm:px-8 xl:px-0'>
 				<h1 className='mb-5 font-satoshi text-heading-4 font-bold -tracking-[1.6px] text-black dark:text-white lg:text-heading-2 xl:text-[58px] xl:leading-[1.12]'>
 				短剧{" "}
