@@ -151,13 +151,13 @@ const Header = () => {
               <ThemeSwitcher />
 
               <Link
-                href="https://play.urlnet.cn/"
+                href="https://cps.urlnet.cn/"
                 className="px-5 py-2 font-satoshi font-medium text-black dark:text-white"
               >
                 立即注册
               </Link>
               <Link
-                href="https://play.urlnet.cn/"
+                href="https://cps.urlnet.cn/"
                 className="rounded-full bg-primary px-5 py-2 font-satoshi font-medium text-white hover:bg-primary-dark"
               >
                 立即登录

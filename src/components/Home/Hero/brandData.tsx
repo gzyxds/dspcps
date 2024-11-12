@@ -19,7 +19,7 @@ const brandData: Brand[] = [
 	{
 		id: 1 + i,
 		name: "NextJSTemplates",
-		link: "https://play.urlnet.cn",
+		link: "https://cps.urlnet.cn",
 		image: (
 			<img src="/images/icon/dy.svg" alt="NextJSTemplates" width="101" height="28" />
 		),
@@ -27,7 +27,7 @@ const brandData: Brand[] = [
 	{
 		id: 1 + i,
 		name: "FormBold",
-		link: "https://play.urlnet.cn",
+		link: "https://cps.urlnet.cn",
 		image: (
 			<img src="/images/icon/ks.svg" alt="FormBold" width="153" height="28" />
 		),
@@ -35,15 +35,15 @@ const brandData: Brand[] = [
 	{
 		id: 1 + i,
 		name: "Lineicons",
-		link: "https://play.urlnet.cn",
+		link: "https://cps.urlnet.cn",
 		image: (
 			<img src="/images/icon/sph.svg" alt="Lineicons" width="173" height="28" />
 		),
 	},
 	{
 		id: 1 + i,
-		name: "Uideck",
-		link: "https://play.urlnet.cn",
+		name: "Uideck", 
+		link: "https://cps.urlnet.cn",
 		image: (
 			<img src="/images/icon/xhs.svg" alt="Uideck" width="119" height="28" />
 		),
@@ -51,7 +51,7 @@ const brandData: Brand[] = [
 	{
 		id: 1 + i,
 		name: "Graygrids",
-		link: "https://play.urlnet.cn",
+		link: "https://cps.urlnet.cn",
 		image: (
 			<img src="/images/icon/qywx.svg" alt="Graygrids" width="134" height="28" />
 		),
@@ -59,7 +59,7 @@ const brandData: Brand[] = [
 	{
 		id: 1 + i,
 		name: "SaaSBold",
-		link: "https://play.urlnet.cn",
+		link: "https://cps.urlnet.cn",
 		image: (
 			<img src="/images/icon/tiktok.svg" alt="SaaSBold" width="154" height="28" />
 		),
