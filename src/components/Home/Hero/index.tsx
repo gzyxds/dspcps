@@ -74,72 +74,74 @@ const Hero = () => {
 					</div>
 				</div>
 
-				<Link
-					href='https://cps.urlnet.cn/'
-					className='inline-flex items-center gap-4 rounded-full bg-black py-2 pl-7.5 pr-2 font-satoshi font-medium text-white hover:bg-opacity-90 dark:bg-primary'
-				>
-					<span> 立即入驻 </span>
-					<span className='inline-flex h-9 w-9 items-center justify-center rounded-full bg-primary text-white dark:bg-white dark:text-primary'>
-						<svg
-							className='fill-current'
-							width='20'
-							height='20'
-							viewBox='0 0 20 20'
-							fill='none'
-							xmlns='http://www.w3.org/2000/svg'
-						>
-							<path
-								fillRule='evenodd'
-								clipRule='evenodd'
-								d='M7.5 5.625C7.15482 5.625 6.875 5.34518 6.875 5C6.875 4.65482 7.15482 4.375 7.5 4.375H15C15.3452 4.375 15.625 4.65482 15.625 5V12.5C15.625 12.8452 15.3452 13.125 15 13.125C14.6548 13.125 14.375 12.8452 14.375 12.5V6.50888L5.44194 15.4419C5.19786 15.686 4.80214 15.686 4.55806 15.4419C4.31398 15.1979 4.31398 14.8021 4.55806 14.5581L13.4911 5.625H7.5Z'
-							/>
-						</svg>
-					</span>
-				</Link>
-				<Link
-					href='https://cps.urlnet.cn/'
-					className='inline-flex items-center gap-4 rounded-full bg-black py-2 pl-7.5 pr-2 font-satoshi font-medium text-white hover:bg-opacity-90 dark:bg-primary ml-4'
-				>
-					<span> 联系我们 </span>
-					<span className='inline-flex h-9 w-9 items-center justify-center rounded-full bg-blue-500 text-white dark:bg-blue-500 dark:text-white'>
-						<svg
-							className='fill-current'
-							width='20'
-							height='20'
-							viewBox='0 0 20 20'
-							fill='none'
-							xmlns='http://www.w3.org/2000/svg'
-						>
-							<path
-								fillRule='evenodd'
-								clipRule='evenodd'
-								d='M7.5 5.625C7.15482 5.625 6.875 5.34518 6.875 5C6.875 4.65482 7.15482 4.375 7.5 4.375H15C15.3452 4.375 15.625 4.65482 15.625 5V12.5C15.625 12.8452 15.3452 13.125 15 13.125C14.6548 13.125 14.375 12.8452 14.375 12.5V6.50888L5.44194 15.4419C5.19786 15.686 4.80214 15.686 4.55806 15.4419C4.31398 15.1979 4.31398 14.8021 4.55806 14.5581L13.4911 5.625H7.5Z'
-							/>
-						</svg>
-					</span>
-				</Link>
-				<Link
-					href='https://cps.urlnet.cn/'
-					className='inline-flex items-center gap-4 rounded-full bg-black py-2 pl-7.5 pr-2 font-satoshi font-medium text-white hover:bg-opacity-90 dark:bg-primary ml-4'
-				>
-					<span> APP下载 </span>
-					<span className='inline-flex h-9 w-9 items-center justify-center rounded-full bg-green-500 text-white dark:bg-green-500 dark:text-white'>
-						<svg
-							className='fill-current'
-							width='20'
-							height='20'
-							viewBox='0 0 20 20'
-							fill='none'
-							xmlns='http://www.w3.org/2000/svg'
-						>
-							<path
-								fillRule='evenodd'
-								clipRule='evenodd'
-								d='M7.5 5.625C7.15482 5.625 6.875 5.34518 6.875 5C6.875 4.65482 7.15482 4.375 7.5 4.375H15C15.3452 4.375 15.625 4.65482 15.625 5V12.5C15.625 12.8452 15.3452 13.125 15 13.125C14.6548 13.125 14.375 12.8452 14.375 12.5V6.50888L5.44194 15.4419C5.19786 15.686 4.80214 15.686 4.55806 15.4419C4.31398 15.1979 4.31398 14.8021 4.55806 14.5581L13.4911 5.625H7.5Z'
-							/>
-						</svg>
-					</span>
-				</Link>
+				<div className="flex flex-wrap justify-center gap-4">
+					<Link
+						href='https://cps.urlnet.cn/'
+						className='inline-flex items-center gap-4 rounded-full bg-black py-2 pl-7.5 pr-2 font-satoshi font-medium text-white hover:bg-opacity-90 dark:bg-primary'
+					>
+						<span> 立即入驻 </span>
+						<span className='inline-flex h-9 w-9 items-center justify-center rounded-full bg-primary text-white dark:bg-white dark:text-primary'>
+							<svg
+								className='fill-current'
+								width='20'
+								height='20'
+								viewBox='0 0 20 20'
+								fill='none'
+								xmlns='http://www.w3.org/2000/svg'
+							>
+								<path
+									fillRule='evenodd'
+									clipRule='evenodd'
+									d='M7.5 5.625C7.15482 5.625 6.875 5.34518 6.875 5C6.875 4.65482 7.15482 4.375 7.5 4.375H15C15.3452 4.375 15.625 4.65482 15.625 5V12.5C15.625 12.8452 15.3452 13.125 15 13.125C14.6548 13.125 14.375 12.8452 14.375 12.5V6.50888L5.44194 15.4419C5.19786 15.686 4.80214 15.686 4.55806 15.4419C4.31398 15.1979 4.31398 14.8021 4.55806 14.5581L13.4911 5.625H7.5Z'
+								/>
+							</svg>
+						</span>
+					</Link>
+					<Link
+						href='https://cps.urlnet.cn/'
+						className='inline-flex items-center gap-4 rounded-full bg-black py-2 pl-7.5 pr-2 font-satoshi font-medium text-white hover:bg-opacity-90 dark:bg-primary'
+					>
+						<span> 联系我们 </span>
+						<span className='inline-flex h-9 w-9 items-center justify-center rounded-full bg-blue-500 text-white dark:bg-blue-500 dark:text-white'>
+							<svg
+								className='fill-current'
+								width='20'
+								height='20'
+								viewBox='0 0 20 20'
+								fill='none'
+								xmlns='http://www.w3.org/2000/svg'
+							>
+								<path
+									fillRule='evenodd'
+									clipRule='evenodd'
+									d='M7.5 5.625C7.15482 5.625 6.875 5.34518 6.875 5C6.875 4.65482 7.15482 4.375 7.5 4.375H15C15.3452 4.375 15.625 4.65482 15.625 5V12.5C15.625 12.8452 15.3452 13.125 15 13.125C14.6548 13.125 14.375 12.8452 14.375 12.5V6.50888L5.44194 15.4419C5.19786 15.686 4.80214 15.686 4.55806 15.4419C4.31398 15.1979 4.31398 14.8021 4.55806 14.5581L13.4911 5.625H7.5Z'
+								/>
+							</svg>
+						</span>
+					</Link>
+					<Link
+						href='https://cps.urlnet.cn/'
+						className='inline-flex items-center gap-4 rounded-full bg-black py-2 pl-7.5 pr-2 font-satoshi font-medium text-white hover:bg-opacity-90 dark:bg-primary'
+					>
+						<span> APP下载 </span>
+						<span className='inline-flex h-9 w-9 items-center justify-center rounded-full bg-green-500 text-white dark:bg-green-500 dark:text-white'>
+							<svg
+								className='fill-current'
+								width='20'
+								height='20'
+								viewBox='0 0 20 20'
+								fill='none'
+								xmlns='http://www.w3.org/2000/svg'
+							>
+								<path
+									fillRule='evenodd'
+									clipRule='evenodd'
+									d='M7.5 5.625C7.15482 5.625 6.875 5.34518 6.875 5C6.875 4.65482 7.15482 4.375 7.5 4.375H15C15.3452 4.375 15.625 4.65482 15.625 5V12.5C15.625 12.8452 15.3452 13.125 15 13.125C14.6548 13.125 14.375 12.8452 14.375 12.5V6.50888L5.44194 15.4419C5.19786 15.686 4.80214 15.686 4.55806 15.4419C4.31398 15.1979 4.31398 14.8021 4.55806 14.5581L13.4911 5.625H7.5Z'
+								/>
+							</svg>
+						</span>
+					</Link>
+				</div>
 			</div>
 
 			{/* <!-- Hero brands --> */}
